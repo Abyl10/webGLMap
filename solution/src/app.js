@@ -90,6 +90,7 @@ function initWebGLOverlayView(map) {
       });
     };
   };
+  //
 
   webGLOverlayView.onDraw = ({ gl, transformer }) => {
     // update camera matrix to ensure the model is georeferenced correctly on the map
