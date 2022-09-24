@@ -4,7 +4,7 @@ This repo contains the project template and finished code for the Google Maps Pl
 
 Map for displaying the 3d objects using Google API.
 
-TODO:
+**TODO**:
 1. showing floor
 2. showing path between two places
 3. show animation of human/user
