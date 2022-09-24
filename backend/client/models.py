@@ -5,22 +5,12 @@ from backend.settings import TWILIO_ID, TWILIO_TOKEN
 from twilio.rest import Client as TwilioClient
 
 class Client(models.Model):
-    first_name = models.CharField(
+    name = models.CharField(
         max_length=150,
         help_text="Please enter your name",
     )
-    last_name = models.CharField(
-        max_length=150,
-        help_text="Please enter your lastname"
-    )
-    username = models.CharField(
-        max_length=150,
-        unique=True,
-        help_text="Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.",
-        default=str(uuid4())
-    )
+    email = models.EmailField(unique=True)
     password = models.CharField(max_length=100)
-    trusted_contact_phone = PhoneNumberField(region="KZ")
 
     class Meta:
         db_table = "clients"

@@ -66,6 +66,7 @@ djangorestframework-jwt = "^1.11.0"
 djangorestframework-simplejwt = "^5.2.0"
 react = "^4.3.0"
 pywhatkit = "^5.4"
+simplejson = "^3.17.6"
 
 [tool.poetry.extras]
 prod = ["psycopg2", "gunicorn", "sentry-sdk", "channels_redis"]

@@ -7,6 +7,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', include('auth.urls')),
     path('api/', include('audio_retrieval.urls')),
+    path('info/', include('locations.urls'))
 ]
 
 if settings.DEBUG:
