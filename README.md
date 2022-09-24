@@ -2,6 +2,17 @@
 
 This repo contains the project template and finished code for the Google Maps Platform WebGL codelab.
 
+Map for displaying the 3d objects using Google API.
+
+TODO:
+1. showing floor
+2. showing path between two places
+3. show animation of human/user
+
+
+
+
+
 ## Getting Started
 To get started with the codelab, download or fork this repo. A starter template is available in `/starter` and the full solution code is available in `/solution`.
 
